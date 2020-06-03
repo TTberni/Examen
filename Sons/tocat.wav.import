@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/tocat.wav-9dad9a39a4b014f1522e4fb79aa387d0.sample"
+
+[deps]
+
+source_file="res://Sons/tocat.wav"
+dest_files=[ "res://.import/tocat.wav-9dad9a39a4b014f1522e4fb79aa387d0.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

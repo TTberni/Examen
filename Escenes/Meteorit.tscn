@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/Meteorit.gd" type="Script" id=1]
+[ext_resource path="res://Imatges/Atlas/meteorBrown_big1.tres" type="Texture" id=2]
+
+[node name="Meteorit" type="Area2D"]
+collision_layer = 4
+collision_mask = 3
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -50, 10, -33, -41, 24, -41, 50, -1, 35, 33, 10, 29, -22, 41 )
+[connection signal="body_entered" from="." to="." method="_on_Meteorit_body_entered"]

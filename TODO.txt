@@ -1,0 +1,17 @@
+Un punt per aconseguir cadascun d'aquests punts (sobre un total de 7)
+
+1. Fer que apareixin meteorits cada 0.2 segons amb la funció crea_meteorit del script Joc.gd i mitjançant un Timer
+
+2. Afegir un fons amb paral·laxi de moviment amb les tres imatges Fons1.png, Fons2.png i Fons3.png. Cal que les imatges del fons es repeteixin per tal que no s'acabi el fons al sortir de la pantalla inicial.
+
+3. Fer aparèixer l'escena de l'explosió Explosió.tscn quan mor un meteorit.
+
+4. Fer que la funció actualitza del script Marcador.gd actualitzi el nombre del meteorits que han explotat al marcador.
+
+5. Fer que el motor emeti l'estela i faci soroll només quan la nau avança amb la tecla de la fletxa amunt.
+
+6. Fer que es carregui l'escena GameOver.tscn quan la vida de la nau sigui inferior o igual a 0
+
+7. Afegir un menú principal a l'obrir el joc que permeti jugar o sortir-ne.
+
+8. EXTRA: Desar en un fitxer la puntuació màxima aconseguida i fer que la mostri a l'entrar al joc.
